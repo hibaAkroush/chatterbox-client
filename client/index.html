@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- dependencies -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+<!--     <script src="bower_components/jquery/dist/jquery.js"></script> -->
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    <script src="/Users/rbk22/Desktop/rbk3-n-queens/lib/underscore.js"></script>
     <script>
       // YOU DO NOT NEED TO EDIT THIS CODE
       if (!/(&|\?)username=/.test(window.location.search)) {
@@ -23,10 +26,28 @@
     <script src="scripts/app.js"></script>
   </head>
   <body>
+
+  </script>
     <div id="main">
-      <h1>chatterbox</h1>
+    <h1>chatterbox</h1>
+
+    <p>Room</p>
+
+  <select id="roomSelect">
+  <option id= "new" value="new">new room...</option>
+  </select>
+
+    <input id="textbox" type="text" name="words">
+    <button id="btn" >add</button>
+    
+    <li id="chats"></li>
+
+
       <!-- Your HTML goes here! -->
+
+        <script type="text/javascript">
+</script>
     </div>
-    <div id="chats"></div>
+
   </body>
 </html>
